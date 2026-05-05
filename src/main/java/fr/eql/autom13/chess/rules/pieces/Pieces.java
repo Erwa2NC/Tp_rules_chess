@@ -2,8 +2,10 @@ package fr.eql.autom13.chess.rules.pieces;
 
 import fr.eql.autom13.chess.rules.Position;
 
-import java.util.Arrays;
-
+/**
+ * Class mère pour toute les pièces
+ * Contient une méthode de vérification du prochain move et une méthode de move.
+ */
 public class Pieces {
 
     protected Position piecePosition;
