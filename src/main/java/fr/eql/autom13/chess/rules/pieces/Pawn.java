@@ -9,7 +9,9 @@ import javax.swing.JPanel;
  */
 public class Pawn extends Pieces{
 
-    public Pawn() {
+
+    public Pawn(Position piecePosition) {
+        super(piecePosition);
         name = ChessPiece.PAWN;
     }
 

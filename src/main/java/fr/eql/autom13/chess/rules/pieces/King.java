@@ -3,7 +3,8 @@ package fr.eql.autom13.chess.rules.pieces;
 import fr.eql.autom13.chess.rules.Position;
 
 public class King extends Pieces{
-    public King() {
+    public King(Position piecePosition) {
+        super(piecePosition);
         name = ChessPiece.KING;
     }
 

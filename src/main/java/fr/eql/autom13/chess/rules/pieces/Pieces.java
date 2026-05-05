@@ -11,6 +11,10 @@ public class Pieces {
     protected Position piecePosition;
     protected ChessPiece name;
 
+    public Pieces(Position piecePosition) {
+        this.piecePosition = piecePosition;
+    }
+
     public Position getPiecePosition() {
         return piecePosition;
     }

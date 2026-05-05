@@ -4,7 +4,8 @@ import fr.eql.autom13.chess.rules.Position;
 
 public class Bishop extends Pieces{
 
-    public Bishop() {
+    public Bishop(Position piecePosition) {
+        super(piecePosition);
         name = ChessPiece.BISHOP;
     }
 

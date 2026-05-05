@@ -4,7 +4,8 @@ import fr.eql.autom13.chess.rules.Position;
 
 public class Queen extends Pieces{
 
-    public Queen() {
+    public Queen(Position piecePosition) {
+        super(piecePosition);
         name = ChessPiece.QUEEN;
     }
 

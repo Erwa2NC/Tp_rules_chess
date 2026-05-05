@@ -4,7 +4,8 @@ import fr.eql.autom13.chess.rules.Position;
 
 public class Knight extends Pieces{
 
-    public Knight() {
+    public Knight(Position piecePosition) {
+        super(piecePosition);
         name = ChessPiece.KING;
     }
 

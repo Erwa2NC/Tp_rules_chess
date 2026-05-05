@@ -4,7 +4,8 @@ import fr.eql.autom13.chess.rules.Position;
 
 public class Rook extends Pieces
 {
-    public Rook() {
+    public Rook(Position piecePosition) {
+        super(piecePosition);
         name = ChessPiece.ROOK;
     }
 
