@@ -35,7 +35,7 @@ public class Pieces {
 
     public void move(Position newPosition)
     {
-        System.out.println(name.getLabel() + " en " + newPosition.col + " / " + newPosition.row);
+        System.out.println(name.getLabel() + " en " + newPosition.row + " / " + newPosition.col);
         piecePosition = newPosition;
     }
 }

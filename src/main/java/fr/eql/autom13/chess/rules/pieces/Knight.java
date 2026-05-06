@@ -6,7 +6,7 @@ public class Knight extends Pieces{
 
     public Knight(Position piecePosition) {
         super(piecePosition);
-        name = ChessPiece.KING;
+        name = ChessPiece.KNIGHT;
     }
 
     @Override
